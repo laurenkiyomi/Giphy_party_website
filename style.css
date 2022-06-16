@@ -1,0 +1,28 @@
+* {
+    padding: 0cm;
+    margin: 0cm;
+    border-width: 0cm;
+}
+
+#results {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hidden {
+    display: none;
+}
+
+.gif-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 1px;
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+}
